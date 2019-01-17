@@ -1,6 +1,8 @@
 # GoodReads App
 A simple GoodReads javascript client web app
 
+<img src="https://github.com/joshuafernandes1996/goodreads/blob/master/screen.PNG" width="700">
+
 ## Features
 * Should be able to search the books with name
 * Interface to list the books with pagination
