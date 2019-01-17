@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Goods Reader</title>
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="stylesheet" href="style/alertify.core.css" />
+        <link rel="stylesheet" href="style/alertify.default.css" />
+        <script src="script/script.js"></script>
+        <script src="script/alertify.js"></script>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Goods Reader</h1>
+            <div id="subContainer">
+                <div id="addGoods"><br>
+                    <input placeholder="Add Goods" type="text" name="" id="add" onkeypress="return runScript(event)" required>
+                    <button id="addBtn" onclick="add()">Add</button><br>
+                    <input onkeyup="search()" style='margin-top: 2%;' placeholder="Search goods....." type="text" name="" id="search" onkeypress="return runScript1(event)" required>
+                    <button id="searchBtn" onclick="btnSearch()">Search</button><br>
+                    <span id="count"></span>
+                    <ul id="mainList"></ul>
+                    <div id="page">Page No.. <br></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
